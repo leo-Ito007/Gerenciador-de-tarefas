@@ -1,9 +1,11 @@
+import Menu from './Menu';
+
 function Header() {
     return (
         <>
-        Header
+        <Menu />
         </>
     );
-    }
+}
 
-    export default Header;
+export default Header;
