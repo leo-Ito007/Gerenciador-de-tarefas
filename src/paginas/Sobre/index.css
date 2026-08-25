@@ -1,0 +1,107 @@
+.esporte{
+    width: 100%;
+}
+.redacao{
+    width: 100%;
+}
+.jogos{
+    width: 100%;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+.meuNome{
+    color: black;
+    font-size: 50px;
+    font-weight: 900px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+header{
+width: 100%;
+padding: 15px 0;
+border-bottom: 2px solid #cc0c0c;
+display: flex;
+align-items: center;
+
+}
+.imgfotoPerfil:hover {
+transform: scale(1.06);
+}
+header h1{
+    color: orange;
+
+}
+section{
+    margin-top: 20px;
+
+}
+.boxfotoPerfil{
+    width: 100%;
+padding: 40px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 15px;
+
+}
+.fotoPerfil{
+    width: 100%;
+    height: 200px;
+    border: 5px solid white;
+}
+.imgfotoPerfil{
+    width: 25%;
+    height: 300px;
+    border: 5px solid white;
+}
+.imgfotoPerfil p{
+    font-size: 40px;
+    font-weight: 900px;
+    color: white;
+}
+.habilidades{
+    width: 100%;
+    background-color: rgb(242, 237, 237);
+    display: flex;
+    gap: 15px;
+}
+article{
+    margin: 20px;
+    padding: 30px;
+    flex: 1 1 calc(25% - 20px);
+    min-width: 280px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+article:hover {
+transform: translateY(-6px);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+article.img{
+    width: 50%;
+    height: 100px;
+    
+}
+article h2{
+    color: #333;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+article p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid #333;
+    text-align: justify;
+    padding: 7px;
+}
