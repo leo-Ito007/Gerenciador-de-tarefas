@@ -53,9 +53,12 @@ th {
 }
 
 td {
-    border: 1px solid #e2e8f0;
+    border: 1px solid #fdfdfd;
 }
 
 tr:hover {
     background-color: rgba(0, 0, 0, 0.02);
+}
+a{
+    color: rgb(3, 3, 3);
 }
