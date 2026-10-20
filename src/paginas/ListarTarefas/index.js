@@ -1,0 +1,47 @@
+import './index.css';
+import tarefa from '../../mook/tarefas';
+import { Link } from 'react-router-dom';
+
+function ListarTarefas() {
+    return (
+        <main>
+            <header>
+                <h1>Listar Tarefas</h1>
+            </header>
+            <section>
+                <div>
+                    <p>Foram encontradas {tarefa.length} tarefas</p>
+                    <Link to={"/CadastrarTarefa"}>+ Tarefa</Link>
+                </div>
+            </section>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ITEM</th>
+                            <th>TAREFA</th>
+                            <th>RESPONSÁVEL</th>
+                            <th>VER</th>                                 
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {
+                            tarefa.map((item) => (
+                                <tr key={item.id}>
+                                    <td>{item.id}</td>
+                                    <td>{item.titulo}</td>
+                                    <td>{item.responsavel}</td>
+                                    <td><Link to={`/Tarefa/${item.id}`}>Ver</Link></td>
+
+                                </tr>
+                            ))
+                        }
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    );
+}
+
+export default ListarTarefas;
