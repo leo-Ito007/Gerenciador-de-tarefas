@@ -32,7 +32,7 @@ function ListarTarefas() {
                                     <td>{item.id}</td>
                                     <td>{item.titulo}</td>
                                     <td>{item.responsavel}</td>
-                                    <td><Link to={`/Tarefa/${item.id}`}>Ver</Link></td>
+                                    <td><Link to={`/tarefa/${item.id}`}>Ver</Link></td>
 
                                 </tr>
                             ))
