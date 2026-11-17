@@ -13,27 +13,27 @@ function Sobre() {
             </header>
             <section>
                 <div className="boxfotoPerfil">
-                    <img className="imgfotoPerfil" src={foto} />
+                    <img className="imgfotoPerfil" src={foto} alt="Foto de perfil" />
                     <p className='meuNome'>Leonardo Ito Salles Felipe</p>
                 </div>
                 <div className="habilidades">
                     <article>
                         <h2>Esporte</h2>
-                        <img className="esporte" src={esporte} />
+                        <img className="esporte" src={esporte} alt="Imagem de esporte" />
                         <p className="Descrição">
                             Gosto de praticar esportes, como tenis de mesa, futebol.
                             </p>
                     </article>
                     <article>
                         <h2>Redação</h2>
-                        <img className="redacao" src={redacao} />
+                        <img className="redacao" src={redacao} alt="Imagem de redação" />
                         <p className="Descrição">
                             Gosto de criar redações pois me ajuda a aprender e desenvolver a criatividade.
                         </p>
                     </article>
                     <article>
                         <h2>Jogos</h2>
-                        <img className="jogos" src={jogos} />
+                        <img className="jogos" src={jogos} alt="Imagem de jogos" />
                         <p className="Descrição">
                             Jogo jogos, pois melhora habilidades de cooperação e pensamento estratégico.
                         </p>
