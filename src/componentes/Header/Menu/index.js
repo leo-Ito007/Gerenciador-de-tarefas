@@ -1,17 +1,15 @@
-import { Link } from "react-router-dom";
-import './index.css';
+import { Link } from 'react-router-dom';
 
-function Menu(){
+function Menu() {
     return (
-        <nav className="menu-container">
-            <ul className="menu-list">
-                <li className="menu-item"><Link to="/" className="menu-link">Home</Link></li>
-                <li className="menu-item"><Link to="/tarefas" className="menu-link">Tarefas</Link></li>
-                <li className="menu-item"><Link to="/contatos" className="menu-link">Contatos</Link></li>
-                <li className="menu-item"><Link to="/sobre" className="menu-link">Sobre</Link></li>
+        <nav>
+            <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/Tarefa">Tarefas</Link></li>
+                <li><Link to="/contato">Contato</Link></li>
+                <li><Link to="/sobre">Sobre</Link></li>
             </ul>
-        </nav>
-    );
-}
-
-export default Menu;
+        </nav>   
+    )
+    }
+    export default Menu;

@@ -1,35 +1,21 @@
-.menu-container {
-    background-color: #800606; 
-    width: 100%;
-    padding: 15px 0; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+nav{
+    
 }
+ul{
 
-.menu-list {
+}
+li{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
+    height: 30px;
     align-items: center;
-    justify-content: center; 
-    list-style: none; 
-    padding: 0;
-    margin: 0;
+    justify-content: center;
+    font-size: 18px;
 }
-
-.menu-item {
-    font-size: 1rem;
-    font-weight: 600;
+a{
+    color: blue;
 }
-
-.menu-link {
-    color: #ffffff; 
-    text-decoration: none; 
-    padding-bottom: 5px; 
-    border-bottom: 3px solid transparent; 
-    transition: all 0.2s ease-in-out; 
-}
-
-.menu-link:hover {
-    color: #f8fafc;
-    border-bottom-color: #ffffff; 
+a:hover{
+    color: green;
 }
